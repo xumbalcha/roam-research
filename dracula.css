@@ -473,7 +473,7 @@ a:hover {
 
 .checkmark {
   background-color: var(--current-line);
-  border-color: var(--background2);
+  border-color: var(--foreground);
 }
 
 .check-container input:active ~ .bp3-control-indicator {
@@ -706,5 +706,13 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .intercom-launcher-frame,
 #intercom-container {
   display: none !important;
+}
+
+.rm-autocomplete-result {
+  color: #FFF;
+}
+
+.bp3-text-overflow-ellipsis {
+  color: #FFF;
 }
 
