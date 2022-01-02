@@ -720,6 +720,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   background-color: var(--background2)!important;
 }
 
+.bp3-popover-arrow-fill{
+  background-color: var(--background2)!important;
+}
+
 .bp3-popover .bp3-popover-arrow-border {
   background-color: initial!important;
 }
