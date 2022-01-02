@@ -25,7 +25,7 @@ Install with the Stylus extension for Chrome or Firefox.
   --background2:  #333545;
   --foreground2:  #BDCAD4;
   --search-input: #e4e9ed;
-  --search-hover: #d5dadf;
+  --search-hover: #BDCAD4;
   --bullet-outer: #6c6f75;
   --bullet-inner: #D8DEE9;
   --column-title: #818D9B;
@@ -385,6 +385,10 @@ a:hover {
   background-color: var(--search-hover);
 }
 
+.bp3-menu a > div:hover {
+  background-color: initial;
+}
+
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
   color: var(--pink); 
 }
@@ -720,8 +724,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   background-color: var(--background2)!important;
 }
 
-.bp3-popover-arrow-fill{
-  background-color: var(--background2)!important;
+.bp3-popover-arrow-fill {
+  fill: var(--background2)!important;
 }
 
 .bp3-popover .bp3-popover-arrow-border {
