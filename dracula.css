@@ -717,9 +717,13 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 
 .bp3-menu {
-  background-color: var(--background2);
+  background-color: var(--background2)!important;
 }
 
 .bp3-popover .bp3-popover-arrow-border {
   background-color: initial!important;
+}
+
+.rm-code-block {
+    background-color: var(--foreground2);
 }
