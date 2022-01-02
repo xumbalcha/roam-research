@@ -522,7 +522,7 @@ code {
 }
 
 
-/* Multiline code blocks with ``` */
+/* Multiline code blocks with 3x` */
 
 .bp3-popover-text {
   color: var(--foreground);
